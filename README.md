@@ -53,10 +53,6 @@ Each person in the queue is represented by:
 - `string Name` — Customer’s name  
 - `int Tickets` — Number of tickets requested  
 
-The system should follow FIFO (First-In-First-Out)order, meaning the first customer to enter the queue is the first to be served.
-
----
-
  Required Functionalities
 
 | Function | Description |
@@ -64,13 +60,13 @@ The system should follow FIFO (First-In-First-Out)order, meaning the first custo
 | `enqueue(int id, string name, int tickets)` | Adds a new customer to the end of the queue |
 | `dequeue()` | Removes the first customer from the queue once their tickets are issued |
 | `display()` | Displays all customers currently waiting in the queue |
-| Bonus:| Implement a priority queue so customers requesting more tickets get served first |
+
 
 ---
  Question 5: Stack & Algorithm Analysis
 
  Problem Description
-In this task, you are required to:
+
 
 1. Implement two stack data structures:
    - A linked list-based stack (using singly linked list)
@@ -82,4 +78,4 @@ In this task, you are required to:
 
 3. Perform runtime analysis comparing the time complexity and performance differences between both stack implementations.
 
----
+
